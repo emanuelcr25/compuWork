@@ -11,10 +11,9 @@ public class Departamento {
     //Constructor de la clase
     public Departamento(String nombre, int capacidad) {
         this.nombre = nombre;
-        this.capacidad = capacidad;
         this.empleados = new ArrayList<>();
-        
     }
+    
 // Metodo set y get
     public String getNombre() {
         return nombre;
