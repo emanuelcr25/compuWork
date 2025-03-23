@@ -2,13 +2,10 @@
 package compuWork;
 
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class Departamento {
     
     private String nombre;
-    private int capacidad;
     private ArrayList<Empleado> empleados;
 
     //Constructor de la clase
@@ -24,13 +21,6 @@ public class Departamento {
     }
     public void setNombre(String nombre) {
         this.nombre = nombre;
-    }
-    
-    public int getCapacidad(){
-        return capacidad;
-    }
-    public void setCapacidad(int capacidad){
-        this.capacidad = capacidad;
     }
     
     //Solo metodo get para la lista
